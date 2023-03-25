@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+/* p{
+    margin-top: 50px;
+    border: dotted 5px blue;
+    padding: 50px;
+}
+img{
+    
+} */
+/* Con esto le vamos a matar por default los margenes que le da por default el navegador */
+a{
+    text-decoration: none;
+    color: white;
+}
+li{
+    border: solid 1px black;
+    padding: 20px;
+    background-color: #1481BA;
+    width: 200px;
+    margin: 30px;
+    text-align: center;
+    border-radius: 30px;
+    box-shadow: 3px -3px 3px black;
+}
+p{
+    font-weight: bold;
+    color: #1481BA;
+    font-size: 50px;
+    text-shadow: 3px -3px 6px white;
+    letter-spacing: 3px;
+}
+img{
+    width: 100px;
+}
+header{
+    background: linear-gradient( #E9CE2C, #247BA0, #1B998B );
+    padding: 80px;
+    display: flex;
+}
+ul{
+    display: flex;
+}
